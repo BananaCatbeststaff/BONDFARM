@@ -35,6 +35,19 @@ rodandoLabel.Font = Enum.Font.GothamBold
 rodandoLabel.ZIndex = 2
 rodandoLabel.Parent = ScreenGui
 
+-- Créditos
+local creditLabel = Instance.new("TextLabel")
+creditLabel.Size = UDim2.new(1, 0, 0, 25)
+creditLabel.Position = UDim2.new(0, 0, 1, -25)
+creditLabel.BackgroundTransparency = 1
+creditLabel.TextColor3 = Color3.fromRGB(200, 160, 255)
+creditLabel.TextScaled = true
+creditLabel.Text = "by Unk Community:
+https://discord.gg/CYW4xx9qYc"
+creditLabel.Font = Enum.Font.Gotham
+creditLabel.ZIndex = 3
+creditLabel.Parent = ScreenGui
+
 -- Webhook
 local function sendToWebhook(bondValue)
 	local HttpService = game:GetService("HttpService")
