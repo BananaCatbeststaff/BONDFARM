@@ -141,11 +141,6 @@ local function executarScript()
 	end
 end
 
--- Botão manual
-ligarBtn.MouseButton1Click:Connect(function()
-	executarScript()
-end)
-
 -- Execução automática
 if autoexecute or firsttime then
 	executarScript()
