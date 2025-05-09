@@ -42,8 +42,7 @@ creditLabel.Position = UDim2.new(0, 0, 1, -25)
 creditLabel.BackgroundTransparency = 1
 creditLabel.TextColor3 = Color3.fromRGB(200, 160, 255)
 creditLabel.TextScaled = true
-creditLabel.Text = "by Unk Community:
-https://discord.gg/CYW4xx9qYc"
+creditLabel.Text = "by Unk Community:https://discord.gg/CYW4xx9qYc"
 creditLabel.Font = Enum.Font.Gotham
 creditLabel.ZIndex = 3
 creditLabel.Parent = ScreenGui
